@@ -1,0 +1,62 @@
+#smt-admin-page {
+    font-size: 1.5em;
+}
+#smt-admin-page #wp-smart-commerce-header-container {
+    display: flex;
+    align-items: center;
+}
+
+#smt-admin-page #wp-smart-commerce-header-container h1 {
+    margin-left: 1rem;
+}
+
+#smt-admin-page #wp-smart-commerce-header-container img {
+    width: 100px;
+}
+
+#smt-admin-page form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#smt-admin-page form > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#smt-admin-page form div label {
+    margin-bottom: 10px;
+}
+
+#smt-admin-page form div div img {
+    width: 20px;
+}
+
+#smt-admin-page form div input[type="submit"]{
+    width: fit-content;
+    padding: 0px 40px;
+    margin: auto;
+} 
+
+#guide {
+    display: flex;
+}
+
+#guide b {
+    color: firebrick;
+}
+
+.wp_commerce_free_register form {
+    margin: 3rem auto;
+}
+
+.wp_commerce_free_register input[type="submit"] {
+    background-color: #9ecd16;
+    color: black;
+    padding: 10px 40px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+}
